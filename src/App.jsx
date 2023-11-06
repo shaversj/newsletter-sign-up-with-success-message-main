@@ -1,33 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import mobileImage from '/src/assets/images/illustration-sign-up-mobile.svg'
+import desktopImage from '/src/assets/images/illustration-sign-up-desktop.svg'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+        <div className={"bg-black min-h-screen flex items-center"}>
+            <div className={"max-w-screen-sm w-full lg:max-w-screen-lg bg-charcoal-grey mx-auto lg:min-h-[1080px] lg:max-h-[1080px] lg:flex lg:justify-center lg:items-center"}>
+                <main className={" lg:w-[928px] lg:min-h-[641px] bg-white lg:rounded-[2.25rem]"}>
+                    <div>
+                        <img src={mobileImage} alt={""} />
+                    </div>
+                    <h1>Stay Updated!</h1>
+                    <p>Join 60,000+ product managers receiving monthly updates on:</p>
+                    <ul>
+                        <li>Product discovery and building what matters</li>
+                        <li>Measuring to ensure updates are a success</li>
+                        <li>And much more!</li>
+                    </ul>
+
+                    <h2>Email address</h2>
+                    <input placeholder={"email@company.com"}/>
+                    <button>
+                        <span>Subscribe to monthly newsletter</span>
+                    </button>
+                </main>
+            </div>
+        </div>
     </>
   )
 }
