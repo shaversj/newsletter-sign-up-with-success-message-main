@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      content: {
+        "primary-checkbox": 'url("./src/assets/images/icon-list.svg")'
+      },
       screens: {
         "sm": "375px",
         "lg": "1440px",
@@ -16,6 +19,7 @@ export default {
       "dark-slate-grey": "hsl(234, 29%, 20%)",
       "charcoal-grey": "hsl(235, 18%, 26%)",
       "grey": "hsl(231, 7%, 60%)",
+      "secondary-grey": "hsl(240, 2% 77%)",
       "white": "hsl(0, 0%, 100%)",
       "black": "hsla(0, 0%, 0%)"
     },
