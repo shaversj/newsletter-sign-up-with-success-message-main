@@ -26,8 +26,8 @@ function App() {
                         </ul>
 
                         <h2 className={"text-xs font-medium pt-9"}>Email address</h2>
-                        <input className={"mt-2 w-full h-[56px] border border-secondary-grey rounded-lg placeholder:pl-5 placeholder:text-[16px] placeholder:font-normal placeholder:text-secondary-grey"} placeholder={"email@company.com"}/>
-                        <button className={"w-full h-[56px] bg-dark-slate-grey rounded-lg mt-6"}>
+                        <input className={"mt-2 px-5 w-full h-[56px] border border-secondary-grey rounded-lg placeholder:text-[16px] placeholder:font-normal placeholder:text-secondary-grey focus:outline focus:outline-dark-slate-grey focus:outline-[1px]"} placeholder={"email@company.com"}/>
+                        <button className={"w-full h-[56px] bg-dark-slate-grey rounded-lg mt-6 hover:bg-[url('./src/assets/images/illustration-sign-up-desktop.svg')] hover:bg-bottom"}>
                             <span className={"text-white font-medium"}>Subscribe to monthly newsletter</span>
                         </button>
                     </div>
