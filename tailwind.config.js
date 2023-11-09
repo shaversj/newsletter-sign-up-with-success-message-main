@@ -16,6 +16,8 @@ export default {
     },
     colors: {
       "tomato": "hsl(4, 100%, 67%)",
+      "secondary-tomato": "hsl(5, 99%, 95%)",
+      "dark-tomato": "hsl(5, 34%, 60%)",
       "dark-slate-grey": "hsl(234, 29%, 20%)",
       "charcoal-grey": "hsl(235, 18%, 26%)",
       "grey": "hsl(231, 7%, 60%)",
