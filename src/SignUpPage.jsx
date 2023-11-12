@@ -16,9 +16,9 @@ const SignUpPage = ({ handleSubmit }) => {
         <h1 className={"text-[40px] font-semibold lg:text-[56px]"}>Stay updated!</h1>
         <p className={"pt-3 lg:pt-2"}>Join 60,000+ product managers receiving monthly updates on:</p>
         <ul className={"space-y-3 pt-6 lg:space-y-[.7rem]"}>
-          <li className={"bg-[url('./src/assets/images/icon-list.svg')] bg-no-repeat pl-9"}>Product discovery and building what matters</li>
-          <li className={"bg-[url('./src/assets/images/icon-list.svg')] bg-no-repeat pl-9"}>Measuring to ensure updates are a success</li>
-          <li className={"bg-[url('./src/assets/images/icon-list.svg')] bg-no-repeat pl-9"}>And much more!</li>
+          <li className={"bg-[url('./assets/images/icon-list.svg')] bg-no-repeat pl-9"}>Product discovery and building what matters</li>
+          <li className={"bg-[url('./assets/images/icon-list.svg')] bg-no-repeat pl-9"}>Measuring to ensure updates are a success</li>
+          <li className={"bg-[url('./assets/images/icon-list.svg')] bg-no-repeat pl-9"}>And much more!</li>
         </ul>
         <form onSubmit={handleSubmit}>
           <label htmlFor={"email"} className={"text-xs font-medium pt-9 block"}>

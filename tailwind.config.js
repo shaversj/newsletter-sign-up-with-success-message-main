@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        desktopImage: "url('./src/assets/images/illustration-sign-up-desktop.svg')",
+        desktopImage: "url('/illustration-sign-up-desktop.svg')",
       },
       content: {
         "primary-checkbox": 'url("./src/assets/images/icon-list.svg")',
