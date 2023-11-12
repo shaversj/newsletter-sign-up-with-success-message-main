@@ -33,7 +33,7 @@ const SignUpPage = ({ handleSubmit }) => {
             placeholder={"email@company.com"}
           />
           <p className={"absolute bottom-[11.25rem] left-[15.25rem] lg:bottom-40 lg:left-[20.8rem] hidden text-xs font-medium text-tomato  peer-invalid:block"}>Valid email required</p>
-          <button type={"submit"} className={"w-full h-[56px] bg-dark-slate-grey rounded-lg mt-6 hover:bg-[url('./illustration-sign-up-desktop.svg')] hover:bg-bottom"}>
+          <button type={"submit"} className={"w-full h-[56px] bg-dark-slate-grey rounded-lg mt-6 hover:bg-desktopImage hover:bg-bottom"}>
             <span className={"text-white font-medium"}>Subscribe to monthly newsletter</span>
           </button>
         </form>
